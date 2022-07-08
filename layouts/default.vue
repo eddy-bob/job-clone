@@ -17,6 +17,9 @@ export default {
   data() {
     return { displaySideNav: false };
   },
+  created() {
+    this.$nuxt.$on("closeNav", () => (this.displaySideNav = false));
+  },
 };
 </script>
 
