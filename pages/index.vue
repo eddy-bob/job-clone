@@ -72,7 +72,7 @@
           </div>
         </div>
         <!--  -->
-        <div class="space-y-5 grey">
+        <div class="space-y-2 grey">
           <div class="flex justify-center w-full">
             <img src="../static/svg/torah.svg" class="w-20" alt="" />
           </div>
