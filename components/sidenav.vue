@@ -1,4 +1,5 @@
 <template>
+  <transition name="slide">
   <div class="py-4 space-y-14 bg-white grey">
     <!-- logo -->
     <div class="flex w-full justify-center">
@@ -160,7 +161,11 @@
         </NuxtLink>
       </div>
     </div>
+
+
+
   </div>
+  <transition/>
 </template>
 
 <script>
@@ -173,4 +178,27 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+.slide-enter-active {
+  transform: translateX(20px);
+  transition: all 0.3s linear;
+  opacity: 0.1;
+}
+.slide-leave-active {
+  transform: translateX(-20px);
+  opacity: 0.1;
+  transition: all 0.3s linear;
+}
+
+.slide-enter-from {
+  opacity: 0.1;
+  transition: all 0.3s linear;
+  transform: translateX(-20px);
+  opacity: 0;
+}
+.slide-leave-to {
+  transition: all 0.3s linear;
+  transform: translateX(-20px);
+  opacity: 0.1;
+}
+</style>
