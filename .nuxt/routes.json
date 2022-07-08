@@ -3,28 +3,24 @@
     "name": "router1",
     "path": "/router1",
     "component": "/home/mintcode/igwe/job-clone/pages/router1.vue",
-    "chunkName": "pages/router1",
-    "_name": "_2108f839"
+    "chunkName": "pages/router1"
   },
   {
     "name": "router2",
     "path": "/router2",
     "component": "/home/mintcode/igwe/job-clone/pages/router2.vue",
-    "chunkName": "pages/router2",
-    "_name": "_21170fba"
+    "chunkName": "pages/router2"
   },
   {
     "name": "router3",
     "path": "/router3",
     "component": "/home/mintcode/igwe/job-clone/pages/router3.vue",
-    "chunkName": "pages/router3",
-    "_name": "_2125273b"
+    "chunkName": "pages/router3"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/home/mintcode/igwe/job-clone/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_181b6c43"
+    "chunkName": "pages/index"
   }
 ]
