@@ -1,11 +1,11 @@
 <template>
-  <div class="flex justify-between py-5 px-3">
+  <div class="sm:flex sm:justify-between py-5 sm:px-3">
     <!--  -->
-    <div class="flex space-x-3">
+    <div class="flex sm:space-x-3 space-x-4 sm:px-0 px-5">
       <div class="mt-5">
         <i class="fas fa-bars cursor-pointer" @click="$emit('showSideNav')"></i>
       </div>
-      <div><img src="../static/svg/logo.svg" class="w-16" alt="" /></div>
+      <div><img src="../public/images/svg/logo.svg" class="w-16" alt="" /></div>
       <div
         class="w-full rounded-sm bg-white px-2 flex space-x-1 border-2 mt-3 rounded-full"
       >
@@ -30,9 +30,9 @@
         />
       </div>
     </div>
-    <div class="flex">
-      <div class="flex space-x-4">
-        <div class="flex space-y-3 space-x-2">
+    <div class="flex sm:px-0 px-5">
+      <div class="flex justify-between w-full sm:space-x-4">
+        <div class="flex space-y-3 sm:space-x-2 space-x-1">
           <div class="w-full flex mt-3 space-x-1">
             <p class="font-extrabold text-sm">ENGLISH</p>
             <i class="fas fa-chevron-down mt-3 fa-xs"></i>

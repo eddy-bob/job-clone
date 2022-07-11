@@ -3,12 +3,12 @@
     <div class="py-4 space-y-14 bg-white grey">
       <!-- logo -->
       <div class="flex w-full justify-center">
-        <img src="../static/svg/logo.svg" class="w-16" alt="" />
+        <img src="/images/svg/logo.svg" class="w-16" alt="" />
       </div>
       <div class="space-y-5 text-sm">
         <!--  -->
         <div @click="$emit('closeSideNav')">
-          <NuxtLink to="/" id="router1">
+          <NuxtLink to="/" id="Router1">
             <div
               class="flex justify-between w-full font-extrabold pr-4 pl-9 py-2 rounded-sm"
             >
@@ -20,8 +20,8 @@
         <!--  -->
         <div @click="$emit('closeSideNav')">
           <NuxtLink
-            id="router2"
-            to="/router2"
+            id="RouterTwo"
+            to="/RouterTwo"
             class="flex justify-between w-full font-extrabold"
           >
             <div class="flex justify-between w-full font-extrabold pr-4 pl-9">
@@ -33,8 +33,8 @@
         <!--  -->
         <div @click="$emit('closeSideNav')">
           <NuxtLink
-            id="router3"
-            to="/router3"
+            id="RouterThree"
+            to="/RouterThree"
             class="flex justify-between w-full font-extrabold"
           >
             <div class="flex justify-between w-full font-extrabold pr-4 pl-9">
@@ -46,7 +46,7 @@
         <!--  -->
         <div @click="$emit('closeSideNav')">
           <NuxtLink
-            id="router4"
+            id="RouterFour"
             to="/"
             class="flex justify-between w-full font-extrabold"
           >
@@ -59,8 +59,8 @@
         <!--  -->
         <div @click="$emit('closeSideNav')">
           <NuxtLink
-            id="router5"
-            to="/router2"
+            id="RouterFive"
+            to="/RouterOne"
             class="flex justify-between w-full font-extrabold"
           >
             <div class="flex justify-between w-full font-extrabold pr-4 pl-9">
@@ -72,7 +72,7 @@
         <!--  -->
         <div @click="$emit('closeSideNav')">
           <NuxtLink
-            id="router6"
+            id="RouterSix"
             to="/"
             class="flex justify-between w-full font-extrabold"
           >
@@ -85,8 +85,8 @@
         <!--  -->
         <div @click="$emit('closeSideNav')">
           <NuxtLink
-            id="router7"
-            to="/router1"
+            id="RouterSeven"
+            to="/RouterOne"
             class="flex justify-between w-full font-extrabold"
           >
             <div class="flex justify-between w-full font-extrabold pr-4 pl-9">
@@ -98,8 +98,8 @@
         <!--  -->
         <div @click="$emit('closeSideNav')">
           <NuxtLink
-            id="router8"
-            to="/router1"
+            id="RouterEight"
+            to="/RouterOne"
             class="flex justify-between w-full font-extrabold"
           >
             <div class="flex justify-between w-full font-extrabold pr-4 pl-9">
@@ -111,8 +111,8 @@
         <!--  -->
         <div @click="$emit('closeSideNav')">
           <NuxtLink
-            id="router9"
-            to="/router1"
+            id="RouterNine"
+            to="/RouterOne"
             class="flex justify-between w-full font-extrabold"
           >
             <div class="flex justify-between w-full font-extrabold pr-4 pl-9">
@@ -124,8 +124,8 @@
         <div @click="$emit('closeSideNav')">
           <!--  -->
           <NuxtLink
-            id="router10"
-            to="/router1"
+            id="RouterTen"
+            to="/RouterOne"
             class="flex justify-between w-full font-extrabold"
           >
             <div class="flex justify-between w-full font-extrabold pr-4 pl-9">
@@ -137,8 +137,8 @@
         <!--  -->
         <div @click="$emit('closeSideNav')">
           <NuxtLink
-            id="router11"
-            to="/router1"
+            id="RouterEleven"
+            to="/RouterOne"
             class="flex justify-between w-full font-extrabold"
           >
             <div class="flex justify-between w-full font-extrabold pr-4 pl-9">
@@ -150,8 +150,8 @@
         <!--  -->
         <div @click="$emit('closeSideNav')">
           <NuxtLink
-            id="router12"
-            to="/router1"
+            id="RouterTwelve"
+            to="/RouterOne"
             class="flex justify-between w-full font-extrabold"
           >
             <div class="flex justify-between w-full font-extrabold pr-4 pl-9">

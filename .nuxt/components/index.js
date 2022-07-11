@@ -1,5 +1,5 @@
-export { default as AppHeader } from '../../components/appHeader.vue'
-export { default as Sidenav } from '../../components/sidenav.vue'
+export { default as AppHeader } from '../../components/AppHeader.vue'
+export { default as SideNav } from '../../components/SideNav.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

@@ -1,8 +1,8 @@
 {
   "AppHeader": {
-    "description": "Auto imported from components/appHeader.vue"
+    "description": "Auto imported from components/AppHeader.vue"
   },
-  "Sidenav": {
-    "description": "Auto imported from components/sidenav.vue"
+  "SideNav": {
+    "description": "Auto imported from components/SideNav.vue"
   }
 }

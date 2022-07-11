@@ -1,24 +1,24 @@
 [
   {
-    "name": "router1",
-    "path": "/router1",
-    "component": "/home/mintcode/igwe/job-clone/pages/router1.vue",
-    "chunkName": "pages/router1",
-    "_name": "_2108f839"
+    "name": "RouterOne",
+    "path": "/RouterOne",
+    "component": "/home/mintcode/igwe/job-clone/pages/RouterOne.vue",
+    "chunkName": "pages/RouterOne",
+    "_name": "_5d26e0a4"
   },
   {
-    "name": "router2",
-    "path": "/router2",
-    "component": "/home/mintcode/igwe/job-clone/pages/router2.vue",
-    "chunkName": "pages/router2",
-    "_name": "_21170fba"
+    "name": "RouterThree",
+    "path": "/RouterThree",
+    "component": "/home/mintcode/igwe/job-clone/pages/RouterThree.vue",
+    "chunkName": "pages/RouterThree",
+    "_name": "_a9db0234"
   },
   {
-    "name": "router3",
-    "path": "/router3",
-    "component": "/home/mintcode/igwe/job-clone/pages/router3.vue",
-    "chunkName": "pages/router3",
-    "_name": "_2125273b"
+    "name": "RouterTwo",
+    "path": "/RouterTwo",
+    "component": "/home/mintcode/igwe/job-clone/pages/RouterTwo.vue",
+    "chunkName": "pages/RouterTwo",
+    "_name": "_2c577ed8"
   },
   {
     "name": "index",
